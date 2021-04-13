@@ -19,6 +19,7 @@
 # Sample Output: 
 # Weird
 
+# Enter your code here. Read input from STDIN. Print output to STDOUT.
 
 #!/bin/python
 
@@ -34,4 +35,3 @@ elif n >= 6 and n <= 20:
     print("Weird")
 elif n > 20 :
     print("Not Weird")
-
