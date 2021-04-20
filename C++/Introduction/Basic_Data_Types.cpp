@@ -1,4 +1,3 @@
-  
 /* 
 Basic Data Types
 
@@ -49,19 +48,19 @@ using namespace std;
 
 int main() {
     // Complete the code.
-    int a;
-    long b;
+    int i;
+    long l;
     char c;
-    float d;
-    double e;
+    float f;
+    double d;
     
-    cin>> a >> b >> c >> d >> e;
+    cin>> i >> l >> c >> f >> e;
     
-    cout<< a << endl<< b << endl << c << endl;
+    cout<< i << endl<< l << endl << c << endl;
     
-    cout << fixed << setprecision(3) << d << endl;
+    cout << fixed << setprecision(3) << f << endl;
    
-    cout << fixed << setprecision(9) << e << endl;
+    cout << fixed << setprecision(9) << d << endl;
     
     return 0;
 }
@@ -74,22 +73,21 @@ using namespace std;
 
 int main() {
     // Complete the code.
-    int a;
+    int i;
     long l; 
     char c;
     float  f; 
     double d;
     
-    cin>>a>>l>>c>>f>>d;
+    cin>> i >> l  >> c >> f >> d;
     
-    cout<<a<<endl<<l<<endl<<c<<endl;
+    cout<< i << endl << l << endl << c << endl;
     
     cout.precision(3);
-    cout<<fixed<<f<<endl;
+    cout<< fixed << f << endl;
     
     cout.precision(9);
-    cout<<fixed<<d;
+    cout<< fixed << d;
     
     return 0;
 }
-
